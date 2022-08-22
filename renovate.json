@@ -5,12 +5,12 @@
     "group:allNonMajor",
     "schedule:daily"
   ],
-  "automerge": true,
   "labels": [
     "dependencies"
   ],
   "packageRules": [
     {
+      "automerge": true,
       "matchUpdateTypes": [
         "minor",
         "patch"
@@ -19,7 +19,7 @@
       "addLabels": [
         "minor"
       ]
-    }
+}
   ],
   "lockFileMaintenance": {
     "enabled": true
