@@ -1,4 +1,9 @@
-echo('This script assumes you have git-cliff installed on your device')
+try {
+  await which('git-cliff')
+} catch {
+  echo('git-cliff is not installed')
+  echo('Visit https://github.com/orhun/git-cliff#installation for installation instructions')
+}
 
 let tag = await question('What is the tag of the release?')
 
