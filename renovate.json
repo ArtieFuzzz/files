@@ -15,6 +15,10 @@
         "minor",
         "patch"
       ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "matchCurrentVersion": "!/^0/",
       "addLabels": [
         "minor"
